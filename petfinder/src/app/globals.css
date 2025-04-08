@@ -3,17 +3,42 @@
 :root {
   --background: #ffffff;
   --foreground: #333333;
+  --filter1: #6b8b42;
+  --filter2: #978c2f;
+  --filter3: #acd7ff;
+  --filter4: #c5e59c;
+  --filter5: #eda8b3;
+  --filter6: #f1e689;
+  --broedtekst: #333333;
+  --opateteringtekst: #333333;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  text-decoration: none;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
 }
